@@ -13,7 +13,7 @@ ENV NETDATA_VERSION v1.20.0
 
 # Install netdata
 RUN apt-get update && \
-    apt-get install -y zlib1g-dev uuid-dev libmnl-dev gcc make git autoconf autoconf-archive autogen automake pkg-config curl wget
+    apt-get install -y zlib1g-dev uuid-dev libuv1-dev libmnl-dev gcc make git autoconf autoconf-archive autogen automake pkg-config curl wget
 
 RUN mkdir -p /opt/netdata && \
     cd /opt/netdata && \
