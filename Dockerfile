@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV NETDATA_VERSION v1.45.6
+ENV NETDATA_VERSION v1.46.0
 
 # Install netdata
 RUN apt-get update && \
