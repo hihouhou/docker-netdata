@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV NETDATA_VERSION=v2.1.1
+ENV NETDATA_VERSION=v2.2.0
 
 # Install netdata
 RUN apt-get update && \
